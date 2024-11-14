@@ -1,0 +1,35 @@
+name: Test Theme
+accent: '#71802e'
+cursor: '#e0ff00'
+details: lighter
+background: '#4D4D4D'
+foreground: '#758048'
+
+############################################################### SEE BELOW
+# background_image:
+#   # the path is relative to ~/.warp/themes/
+#   # the full path to the picture is: ~/.warp/themes/warp.jpg
+#   path: warp.jpg
+#   # the opacity value is required and can range from 0-100
+#   opacity: 60
+############################################################### SEE ABOVE
+
+terminal_colors:
+  normal:
+    black: "#01060E"
+    red: "#FF5555"      # Brighter red for modified files
+    green: "#87ffa5"    # Bright green for clean status
+    yellow: "#ffd557"   # Yellow for warnings or staged changes
+    blue: "#BD93F9"     # Blue for untracked files
+    magenta: "#FF79C6"
+    cyan: "#c0f6ff"
+    white: "#F8F8F2"
+  bright:
+    black: "#4D4D4D"
+    red: "#ff3e3c"      # Even brighter red
+    green: "#69FF94"
+    yellow: "#ffd557"   # Softer yellow
+    blue: "#D6ACFF"
+    magenta: "#FF92DF"
+    cyan: "#A4FFFF"
+    white: "#FFFFFF"
